@@ -1,0 +1,23 @@
+{
+  "name": "bases-node",
+  "version": "0.0.1",
+  "description": "Creates multuplies tables with file system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node . --base=3"
+  },
+  "keywords": [
+    "multiply",
+    "tables"
+  ],
+  "author": "Garcia Carballo <jmgcasd@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
